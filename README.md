@@ -22,6 +22,7 @@ logging.
 Spring Slueth has written a custom interceptor that will take care of this job. However you need to create a
 RestTemplate configuration and ensure that Spring can decorate it with a slueth proxy that adds this interceptor.
 
+Spring Slueth supports RxJava in-built by copying the headers as a thread local context to the IO threads.
 
 - If I want to integrate with Zipkin and start publishing trace information for visualization, I need to use
 spring-cloud-sleuth-zipkin library. But this is not needed in my case right now.

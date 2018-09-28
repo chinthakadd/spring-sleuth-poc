@@ -32,7 +32,9 @@ dependencies {
 	compile('org.springframework.boot:spring-boot-starter-web')
 	compile('org.springframework.cloud:spring-cloud-starter-sleuth')
 
-	// for json logging.
+    compile('io.reactivex:rxjava:1.3.8')
+
+    // for json logging.
 	compile('net.logstash.logback:logstash-logback-encoder:4.6')
 
 	compile('org.codehaus.groovy:groovy')
